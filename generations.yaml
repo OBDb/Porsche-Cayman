@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Porsche_Cayman"
+
 generations:
   - name: "First Generation (987)"
     start_year: 2006
