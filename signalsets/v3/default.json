@@ -1196,9 +1196,9 @@
   "signals": [
     {"id": "CAYMAN_BRAKE_P_7E0", "path": "Control", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2005"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2005"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "CAYMAN_BRAKE_BST_P", "path": "Control", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Brake booster pressure"}
+    {"id": "CAYMAN_ECM_2005_RAW", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine module 2005, raw"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2006"}, "freq": 1,
   "signals": [

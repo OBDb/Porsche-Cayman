@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222005
+test_cases:
+- expected_values:
+    CAYMAN_ECM_2005_RAW: 1
+  response: '7E80462200501'
