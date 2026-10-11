@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221024|fc=1
+test_cases:
+- expected_values:
+    CAYMAN_ALTERNATOR_LOAD: 0
+  response: '7E80462102400'
